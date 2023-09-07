@@ -19,7 +19,7 @@ function Ellenoriz()
     else
     {
         document.getElementById("mianave").style.display = "block"    
-        document.getElementById("ezaneve").style.display = "block"    
+        document.getElementById("ezaneve").innerHTML = n;    
         document.getElementById("vanneve").style.display = "none"    
     }
 }
